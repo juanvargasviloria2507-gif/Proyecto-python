@@ -1,4 +1,7 @@
-
+nombre = ""
+precio = 0
+cantidad = 0
+costo_total = 0
 #Este bloque de codigo valida y pide nombre del producto.
 while True:
         nombre = input ("ingrese el nombre del producto: ").strip()
@@ -27,16 +30,11 @@ while True:
                 print("Cantidad ingresada correctamente:", cantidad)
                 break
             else:
-                print("La cantidad ingresada debe ser que 0")
+                print("La cantidad ingresada debe ser mayor que 0")
         except ValueError:
              print("Por favor ingresar valores numericos")
 
-
-print("\nNombre:", nombre, "Precio:", precio, "Cantidad:", cantidad)
-
-      
-
-nombre = ()
-precio = ()
-cantidad = ()
-costo_total = (precio * cantidad)
+#Este bloque de codigo calcula el costo total y lo redondea a 1 decimal
+costo_total = round(precio * cantidad,1) 
+#este bloque de codigo imprime el nombre, precio, cantidad y costo total
+print("\nNombre:", nombre, "Precio:", precio, "Cantidad:", cantidad, "Costo total:", costo_total)
