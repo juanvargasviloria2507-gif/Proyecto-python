@@ -95,6 +95,9 @@ Nombre: Laptop Precio: 850.5 Cantidad: 3 Costo total: 2551.5
 - **Validación de strings**: Implementa `.isalpha()` y `.replace()` para validar nombres
 - **Redondeo**: Utiliza `round()` para limitar decimales en el costo total
 
+## Diagrama de flujo
+![Diagrama de flujo del proyecto](Imagen/Diagrama_Inventario.drawio.png)
+
 ## Autor
 
 Proyecto de práctica para aprender validación de datos en Python.
